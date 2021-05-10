@@ -2,4 +2,5 @@
     <field name="x_message_id" />
     <field name="x_chat_id" />
     <field name="x_from_id" />
+    <field name="x_date" />
 </tree>

@@ -54,8 +54,14 @@ def install_x_telegram_message():
             model_id=model_id,
             name="x_from_id",
             field_description="From ID",
-            ttype="many2one",
-            relation="x_telegram_user",
+            ttype="char",
+            readonly=True,
+        ),
+        ModelField(
+            model_id=model_id,
+            name="x_date",
+            field_description="Date",
+            ttype="datetime",
             readonly=True,
         )
     ]
