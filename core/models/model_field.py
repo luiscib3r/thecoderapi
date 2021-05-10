@@ -11,5 +11,6 @@ class ModelField(BaseModel):
     state: str = "manual"
     required = False
     relation: Union[str, bool] = False
+    relation_field: Union[str, bool] = False
     readonly: bool = False
     index: bool = False

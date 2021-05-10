@@ -1,0 +1,5 @@
+<tree create="false">
+    <field name="x_message_id" />
+    <field name="x_chat_id" />
+    <field name="x_from_id" />
+</tree>

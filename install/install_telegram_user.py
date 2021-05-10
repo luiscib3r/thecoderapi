@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.getcwd())
+
 from install.models.x_telegram_user import install_x_telegram_user
 from install.actions.x_telegram_user_action import install_x_telegram_user_action
 from install.menus.thecoder_menu import install_thecoder_menu

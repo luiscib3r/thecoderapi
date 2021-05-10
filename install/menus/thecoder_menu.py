@@ -27,6 +27,6 @@ def install_thecoder_menu():
 
 def uninstall_thecoder_menu():
     menu_id = crud_search_menu(
-        odoo, [["name", "=", "NetCity"]])[0]
+        odoo, [["name", "=", "TheCoder"]])[0]
 
     crud_delete_menu(odoo, menu_id)

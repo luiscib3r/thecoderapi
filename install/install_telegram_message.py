@@ -1,0 +1,14 @@
+import sys
+import os
+
+sys.path.append(os.getcwd())
+
+from install.models.x_telegram_message import install_x_telegram_message
+from install.actions.x_telegram_message_action import install_x_telegram_message_action
+from install.menus.x_telegram_message_menu import install_x_telegram_message_menu
+from install.views.x_telegram_message_view import install_x_telegram_message_view
+
+install_x_telegram_message()
+install_x_telegram_message_action()
+install_x_telegram_message_menu()
+install_x_telegram_message_view()

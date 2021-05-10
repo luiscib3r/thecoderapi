@@ -1,0 +1,14 @@
+<form create="false" edit="false">
+    <sheet>
+        <group>
+            <group>
+                <field name="x_message_id" />
+                <field name="x_chat_id" />
+                <field name="x_from_id" />
+            </group>
+            <group>
+                <field name="x_text" />
+            </group>
+        </group>
+    </sheet>
+</form>
